@@ -1,6 +1,8 @@
-# 🤖 G1 LARGE Multimodal Intelligence System  
-
+## G1
+# 🤖 LAMIS — LARGE MULTIMODAL SYSTEM  
 ### Real-Time Voice + Vision AI for Physical Robots
+
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![Python Version](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/) [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](#fastht.ml)
 
 > Giving robots perception, conversation, and autonomous social response — in real time.
 
@@ -12,7 +14,7 @@ Most robots today are mechanical.
 Some are programmable.  
 Very few are intelligent in context.
 
-This system transforms the **Unitree G1** into a real-time multimodal agent that:
+LAMIS transforms the **Unitree G1** into a real-time multimodal agent that:
 
 - 🎙️ Listens
 - 👀 Sees
@@ -20,7 +22,6 @@ This system transforms the **Unitree G1** into a real-time multimodal agent that
 - 🦾 Acts
 - 🔁 Continues the loop
 
-Powered by OpenAI Realtime streaming.
 
 ---
 
@@ -42,7 +43,7 @@ This is continuous multimodal cognition.
 
 Operational loop:
 
-```
+```m4a
 
 Observe → Interpret → Decide → Act → Continue
 
@@ -52,31 +53,46 @@ Observe → Interpret → Decide → Act → Continue
 
 ## 🏗 System Architecture
 
-```
+```m4a
 
 Audio In  ─┐
-├──► Realtime Multimodal Engine ───► Audio Out
+├──► LAMIS Multimodal Engine ───► Audio Out
 Vision In ─┘               │
 ▼
 Decision Layer
 │
 ▼
 Physical Actuation
+
 ```
-
-
 ### Layer Breakdown
-```xlsl
+
+```
 | Layer | Responsibility |
 |-------|---------------|
 | Perception | USB Mic + RealSense D435i |
-| Cognition | GPT Realtime Multimodal |
+| Cognition | LAMIS Realtime Multimodal |
 | Decision | Function-calling + gesture classification |
 | Actuation | Unitree G1 Arm SDK |
 | Feedback | Voice + gesture + continued dialogue |
-
----
 ```
+---
+
+## 🖥 Hardware Specs
+```
+| Component | Specification |
+|-----------|---------------|
+| Robot Base | Unitree G1 Quadruped |
+| CPU | Intel i7-12700H / Jetson Orin |
+| GPU | RTX 3070 / Orin GPU |
+| Vision Sensor | Intel RealSense D435i |
+| Microphone | USB Omnidirectional Mic |
+| Connectivity | Wi-Fi 6, Ethernet |
+| Power | 12V Li-ion Battery Pack |
+| Actuation | 12 Servos + Arm SDK |
+```
+---
+
 ## 👁️ Modes of Operation
 
 ### 1️⃣ Conversational Mode
@@ -191,14 +207,13 @@ In robotics: safety > aesthetics.
 
 ## 🚀 Positioning Statement
 
-We are not building a chatbot.
+LAMIS is not a chatbot.
 
-We are building embodied intelligence.
+LAMIS is embodied intelligence.
 
 And embodied intelligence changes everything.
 ```
 
----
 ```
 # GPT Vision + RealSense Integration
 
@@ -339,7 +354,7 @@ python3 gpt_realsense_analyzer.py
 ```
 
 **Expected Output:**
-```ll
+```llv
 🎥 Initializing RealSense D435i...
   - Depth stream: 640x480 @ 30fps
   - Color stream: 640x480 @ 30fps
