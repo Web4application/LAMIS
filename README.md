@@ -20,7 +20,7 @@ This project integrates OpenAI's GPT Vision models (GPT-4o, GPT-4o-mini, GPT-5) 
 
 ## Project Structure
 
-```
+```bash
 gpt-vlm/
 ├── gpt_realsense_analyzer.py  # Main application
 ├── config.py                   # Configuration settings
@@ -137,7 +137,7 @@ python3 gpt_realsense_analyzer.py
 ```
 
 **Expected Output:**
-```
+```ll
 🎥 Initializing RealSense D435i...
   - Depth stream: 640x480 @ 30fps
   - Color stream: 640x480 @ 30fps
