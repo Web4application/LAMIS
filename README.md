@@ -1,3 +1,205 @@
+# 🤖 G1 Multimodal Intelligence System  
+
+### Real-Time Voice + Vision AI for Physical Robots
+
+> Giving robots perception, conversation, and autonomous social response — in real time.
+
+---
+
+## 🌍 Vision
+
+Most robots today are mechanical.  
+Some are programmable.  
+Very few are intelligent in context.
+
+This system transforms the **Unitree G1** into a real-time multimodal agent that:
+
+- 🎙️ Listens
+- 👀 Sees
+- 🧠 Understands
+- 🦾 Acts
+- 🔁 Continues the loop
+
+Powered by OpenAI Realtime streaming.
+
+---
+
+## 🧠 Core Innovation
+
+This is not simple speech recognition.  
+This is not camera streaming.
+
+This is continuous multimodal cognition.
+
+### Features
+
+- 🎙️ Streaming voice input & output
+- 🎥 Periodic visual context ingestion
+- 🦾 AI-triggered physical actuation
+- 👀 Autonomous visual-only reactions
+- ⚡ Fully async, non-blocking architecture
+- 💰 Real-time token cost awareness
+
+Operational loop:
+
+```
+
+Observe → Interpret → Decide → Act → Continue
+
+```
+
+---
+
+## 🏗 System Architecture
+
+```
+
+Audio In  ─┐
+├──► Realtime Multimodal Engine ───► Audio Out
+Vision In ─┘               │
+▼
+Decision Layer
+│
+▼
+Physical Actuation
+```
+
+
+### Layer Breakdown
+```xlsl
+| Layer | Responsibility |
+|-------|---------------|
+| Perception | USB Mic + RealSense D435i |
+| Cognition | GPT Realtime Multimodal |
+| Decision | Function-calling + gesture classification |
+| Actuation | Unitree G1 Arm SDK |
+| Feedback | Voice + gesture + continued dialogue |
+
+---
+```
+## 👁️ Modes of Operation
+
+### 1️⃣ Conversational Mode
+Voice + periodic visual awareness.
+
+Use Cases:
+- Interactive demo robot
+- Lab assistant
+- Reception robot
+
+---
+
+### 2️⃣ Gesture Command Mode
+Voice-triggered gestures.
+
+Example:
+> "Say hello."
+
+Robot:
+- Speaks
+- Waves
+- Automatically releases arm (0.5s safety release)
+
+---
+
+### 3️⃣ Autonomous Social Mode (V2)
+
+No voice command required.
+
+Recognized gestures:
+- 🤝 Handshake
+- ❤️ Heart gesture
+- 👋 Greeting wave
+
+If uncertain → no movement.
+
+**Confidence-based actuation ensures safety and prevents awkward behavior.**
+
+---
+
+## 💰 Cost Profile (2025 Estimate)
+
+Approximate runtime cost:
+
+~$120/hour (continuous operation)
+
+Breakdown:
+- Audio streaming = majority of cost
+- Vision input = minor contribution
+
+### Cost Optimization
+
+- Increase image interval (10s → 20s)
+- Reduce JPEG quality
+- Dynamically disable vision
+- Silence-aware audio throttling (future)
+
+---
+
+## 🛡 Safety Principles
+
+- Gesture execution requires high confidence
+- Automatic arm release mechanism
+- No ambiguous actuation
+- External USB audio prevents echo feedback
+
+In robotics: safety > aesthetics.
+
+---
+
+## 🧩 Strategic Applications
+
+- AI receptionists
+- Retail robotics assistants
+- Hospital robotic aides
+- Museum interactive guides
+- Research platforms for HRI
+- Companion robotics
+
+---
+
+## 🔮 Product Roadmap
+
+### Phase 1 — Stable Multimodal Loop
+✅ Complete
+
+### Phase 2 — Adaptive Cost Control
+- Dynamic image streaming
+- Silence-based audio optimization
+
+### Phase 3 — Depth-Aware Interaction
+- RealSense depth integration
+- Spatial reasoning layer
+
+### Phase 4 — Persistent Memory
+- Long-term contextual memory
+
+### Phase 5 — Multi-Robot Coordination
+- Fleet behavior synchronization
+
+---
+
+## 🎯 Target Audience
+
+- Robotics startups
+- AI + hardware integrators
+- Research labs
+- Human-Robot Interaction researchers
+- Advanced robotics developers
+
+---
+
+## 🚀 Positioning Statement
+
+We are not building a chatbot.
+
+We are building embodied intelligence.
+
+And embodied intelligence changes everything.
+```
+
+---
+```
 # GPT Vision + RealSense Integration
 
 Real-time scene analysis using OpenAI's GPT Vision models with Intel RealSense D435i camera for robotics applications.
