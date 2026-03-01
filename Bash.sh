@@ -12,3 +12,5 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://boxstarter.org/bo
 get-boxstarter -Force
 Install-BoxstarterPackage https://raw.githubusercontent.com/nodejs/node/HEAD/tools/bootstrap/windows_boxstarter -DisableReboots
 refreshenv
+sudo usermod -aG audio $USER
+speaker-test -t wav -c 2
